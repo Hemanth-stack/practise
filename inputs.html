@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        blockquote {
+            text-align: center;
+            border: 2px solid;
+            box-sizing: border-box;
+            background-color: aquamarine;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="date"] {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 100%;
+        }
+        
+        #container {
+            margin-top: 20%;
+            padding: 10px;
+            border: black 2px solid;
+            box-sizing: border-box;
+            position: absolute;
+            float: left;
+            background-color: aqua;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputs
+    </title>
+</head>
+
+<body>
+    <div id="container">
+        <label for="name" id="data">Name:</label>
+        <br>
+        <input type="text" placeholder="Enter Your Name">
+        <br>
+        <label for="age" id="data">Age:</label>
+        <br>
+        <input type="text" placeholder="Enter your age">
+        <div>
+            <label for="Gender" id="data">Gender:</label>
+            <input type="radio" name="Gender">
+            <label for="Gender">Male</label>
+            <input type="radio" name="Gender">
+            <label for="Gender">Female</label>
+            <input type="radio" name="Gender">
+            <label for="Gender">Others</label>
+        </div>
+        <label for="Dob" id="data">Date of Birth</label>
+        <br><input type="date" name="Dob">
+        <br>
+        <label for="email">Email ID:</label>
+        <br>
+        <input type="email" name="email" placeholder="Ex:abc@gmail.com">
+        <br>
+        <label for="country">Select the country</label>
+        <select name="country" id="">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Austarlia">Austarlia</option>
+            <option value="SriLanka">SriLanka</option>
+        </select>
+        <br>
+        <input type="checkbox" name="check">
+        <label for="check">I Accept all terms and conditions</label>
+        <center>
+            <input type="submit" name="" id="">
+        </center>
+    </div>
+    <blockquote>
+        <p>dont quit</p>
+    </blockquote>
+    <figcaption>-Hemanth</figcaption>
+    <label for="pets">select your pets</label>
+
+    <input list="pets" name="pets" id="pets">
+    <datalist id="pets">
+        <option value="dog">
+        <option value="cat">
+        <option value="lion">
+        <option value="tiger">
+    </datalist>
+
+</body>
+
+</html>
